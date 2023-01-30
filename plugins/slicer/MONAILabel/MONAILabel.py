@@ -372,7 +372,7 @@ class MONAILabelWidget(ScriptedLoadableModuleWidget, VTKObservationMixin):
         # embedded segment editor
         self.ui.embeddedSegmentEditorWidget.setMRMLScene(slicer.mrmlScene)
         self.ui.embeddedSegmentEditorWidget.setSegmentationNodeSelectorVisible(False)
-        self.ui.embeddedSegmentEditorWidget.setMasterVolumeNodeSelectorVisible(False)
+        self.ui.embeddedSegmentEditorWidget.setSourceVolumeNodeSelectorVisible(False)
         self.ui.embeddedSegmentEditorWidget.setMRMLSegmentEditorNode(self.logic.get_segment_editor_node())
 
         # options section
