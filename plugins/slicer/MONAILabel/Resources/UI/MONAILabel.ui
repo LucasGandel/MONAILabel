@@ -321,7 +321,7 @@
      <layout class="QVBoxLayout" name="verticalLayout_2">
       <item>
        <widget class="qMRMLSegmentEditorWidget" name="embeddedSegmentEditorWidget">
-        <property name="autoShowMasterVolumeNode">
+        <property name="autoShowSourceVolumeNode">
          <bool>true</bool>
         </property>
         <property name="maximumNumberOfUndoStates">
